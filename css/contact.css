@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(17, 17, 16);
+}
+
+/* contact me links */
+#div{
+    background: linear-gradient(to top right, #c7e8f7 0%, #0f0f0f 100%);
+    width:1000px;
+    height:500px;
+    margin-left: 180px;
+    margin-top: 0;
+    padding: 30px;
+
+}
+#location .me{
+    display: block;
+    text-decoration: none;
+    position: static;
+}
+h2{
+    color:white;
+    margin-left: 290px;
+    font-weight:bolder;
+}
+
+.me button{
+    border-radius:20px;
+    background-color: darkred;
+    width:200px;
+    height: 60px;
+    font-size: 25px;
+    color:ivory;
+    border: 2px solid black;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.me button:hover{
+    opacity: 1;
+    color:darkturquoise;
+    background-color:green;
+    font-style:bold;
+}
+/* icon */
+
+#icon1{
+    font-size:70px;
+    background-color:black;
+   margin-left:125px;
+   margin-top:40px;
+   
+}
+ #icon2{
+    font-size:70px;
+    background-color:black; 
+    margin-left: 100px;
+   
+}
+
+  
+

@@ -1,0 +1,89 @@
+
+ .carousel-item{
+    margin-left: 200px;
+    margin-top: 80px;
+} 
+
+body{
+    background: linear-gradient(to top right, #2365f3 0%, #061114 100%);
+    background-repeat: no-repeat;
+    height:900px;
+}
+
+#carouselExampleControls{
+    width:960px;
+    height:400px;
+    margin-left: 200px;
+    background-color: rgb(52, 7, 56); 
+}
+.carousel-inner{
+    background-color: darkblue;
+     height: 380px;
+     border: 3px solid black;
+     border-radius: 50px;
+     background:linear-gradient(to top, rgb(52, 7, 56), white 50% );
+    background-size: 100% 200%;
+    transition: all .8s; 
+    font-weight: bold;
+    margin-top:10px;
+    justify-content: center;
+}
+.carousel-inner:hover{
+    background-position: left bottom;
+    color: white;     
+    border: none;
+    box-shadow: 0 0 20px rgb(255 45 45);
+}
+
+/* icon style */
+.carousel-control-prev-icon{
+    background-color: black;
+    
+}
+.carousel-control-next-icon{
+    background-color: black;
+  
+}
+/* button styles */
+a .clickme{
+    width: 80px;
+    height:40px;
+    background-color:chocolate;
+    border-radius: 13px 15px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.clickme:hover{
+    background-color: lightgreen;
+    opacity: 1;
+
+}
+p{
+    font-size: 40px;
+    color:black;
+    font-family:cursive;
+}
+
+/* heading animation */
+.headings {
+    color:darkcyan;
+    text-shadow: 2px 3px rgb(228, 97, 123);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    animation: mymove 10s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: -150px;}
+    to {left: 200px;}
+  }
+  
+  @keyframes myNEWmove {
+    from {width:-150px;}
+    to {width: 500px;}
+  }
+
+  
